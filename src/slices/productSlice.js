@@ -31,7 +31,6 @@ export const productSlice = createSlice({
     },
     [getProducts.fulfilled]: (state, { payload }) => {
       state.products = payload;
-      state.orders = payload.orders;
       state.loading = false;
     },
     [getProducts.rejected]: (state, { error }) => {
