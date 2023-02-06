@@ -1,0 +1,75 @@
+.sidebar {
+  background: rgb(5, 151, 249);
+  background: linear-gradient(90deg, rgba(5, 151, 249, 1) 0%, rgba(5, 194, 249, 1) 100%);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: 2px 2px 5px 2px #8080809c;
+  border-radius: 10px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  height: 100vh;
+}
+
+.sidebar > a:first-child {
+  padding: 0;
+}
+.sidebar > a > img {
+  width: 100%;
+  transition: all 0.5s;
+}
+
+.sidebar > a > img:hover {
+  filter: drop-shadow(0 0 10px #39b0ff);
+}
+
+.css-1g86id8-MuiTreeItem-content .MuiTreeItem-label {
+  font-weight: 500 !important;
+  font-size: 20px !important;
+}
+
+.tree {
+  text-decoration: none;
+  color: #ffffff;
+  /* font: 200 1rem "Roboto"; */
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  transition: all 0.5s;
+}
+
+.tree:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #ffffff;
+  /* font: 500 1rem "Roboto"; */
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  transition: all 0.5s;
+}
+.sidebar a:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+}
+
+.sidebar a > P {
+  display: flex;
+  align-items: center;
+}
+.sidebar a > p > svg {
+  margin-right: 0.5rem;
+}
+
+.MuiTypography-root {
+  background-color: #fff !important;
+}
+
+.css-16alkdk-MuiTreeItem-root:first-child {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}

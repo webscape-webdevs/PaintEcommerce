@@ -1,0 +1,55 @@
+.prouctList {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+}
+
+.userAddButton {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: #0597f9;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.userListUser {
+  display: flex;
+  align-items: center;
+}
+
+.userListImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.userListEdit {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: #0597f9;
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.userListDelete {
+  color: red;
+  cursor: pointer;
+}
+
+.css-z8fhq1-MuiDataGrid-columnHeaders {
+  background: rgb(5, 151, 249);
+  background: linear-gradient(90deg, rgba(5, 151, 249, 1) 0%, rgba(5, 194, 249, 1) 100%);
+  color: white;
+}
+
+.css-ptiqhd-MuiSvgIcon-root {
+  color: white;
+}

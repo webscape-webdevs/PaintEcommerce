@@ -1,0 +1,29 @@
+.navbar {
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffffe6;
+  border-radius: 10px;
+}
+.navbar-container {
+  width: 79vw;
+  height: 9vh;
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+  box-shadow: 2px 2px 5px 2px #8080809c;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.navbar-options {
+  display: flex;
+  margin-right: 40px;
+  font-size: 20px;
+}
+
+.navbar-options > a {
+  text-decoration: none;
+  color: black;
+  margin-right: 40px;
+}

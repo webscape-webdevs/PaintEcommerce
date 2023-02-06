@@ -1,0 +1,209 @@
+.newProductContainer {
+  box-shadow: 2px 2px 5px 2px #8080809c;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.addColors {
+  padding-left: 40px;
+  padding-right: 40px;
+  box-shadow: 2px 2px 2px 2px #8080809c;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: white;
+}
+
+.addColors-container {
+  box-shadow: 2px 2px 5px 2px #8080809c;
+  background-color: #eaeff9;
+  border-radius: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.addColors-item {
+  display: grid;
+  padding: 20px;
+  box-shadow: 2px 2px 5px 2px #8080809c;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.newProductContainer > form {
+  width: 90%;
+  box-shadow: 2px 2px 5px 2px #8080809c;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #eaeff9;
+}
+
+.inputField {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 230px;
+}
+
+.textareaField {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 50px;
+}
+
+.inputField > label,
+.textareaField > label {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.selectImage > label {
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.inputFieldColor {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.inputFieldColor > label {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.inputFieldColor > input {
+  width: 60px;
+  height: 40px;
+}
+
+.inputField > input {
+  border-radius: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #bebebe;
+  outline: none;
+}
+
+.inputField > select {
+  border-radius: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #bebebe;
+  outline: none;
+}
+
+.textareaField > textarea {
+  border-radius: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #bebebe;
+  outline: none;
+}
+
+.selectImage {
+  width: 200px;
+  overflow: hidden;
+}
+
+.selectImage > input {
+  padding: 10px;
+}
+
+.imagePreview {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+  grid-gap: 5px;
+}
+
+.imagePreview > img {
+  width: 60px;
+  height: 50px;
+  padding: 5px;
+}
+
+.buttons {
+  padding: 10px;
+  margin: 20px;
+  margin-left: 0;
+  width: 145px;
+  height: 40px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #0597f9;
+  color: white;
+  font-size: 18px;
+}
+
+.buttons:hover {
+  cursor: pointer;
+  background-color: #39b0ff;
+}
+
+.createButton {
+  padding: 10px;
+  margin: 20px;
+  margin-left: 0;
+  width: 145px;
+  height: 40px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #0597f9;
+  color: white;
+  font-size: 18px;
+}
+
+.createButton:hover {
+  cursor: pointer;
+  background-color: #39b0ff;
+}
+
+.shadesDiv {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.shadesDiv-item {
+  display: grid;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px 2px #8080809c;
+  border-radius: 10px;
+}
+
+.sizeDiv {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 5px 2px #8080809c;
+  border-radius: 10px;
+  border-radius: 20px;
+}
+
+.sizeDiv-item {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.deleteIcon {
+  color: red !important;
+  height: 30px !important;
+  width: 30px !important;
+  margin-left: 110px !important;
+}
+
+.deleteIcon:hover {
+  cursor: pointer !important;
+}

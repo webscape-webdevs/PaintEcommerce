@@ -1,0 +1,128 @@
+.landingPage {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.landingPage-hero {
+  width: 80vw;
+  /* background-color: #ff1a53; */
+  position: absolute;
+  z-index: -10;
+  object-fit: cover;
+}
+
+.landingPage-hero > img {
+  width: 100%;
+}
+
+.landingPage-afterHero {
+  margin-top: 80vh;
+}
+
+.productCard {
+  min-width: 330px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+  /* box-shadow: 0px 0px 20px 1px gray; */
+  box-shadow: 2px 2px 5px 2px #8080809c;
+  border-radius: 40px;
+  text-align: center;
+  margin: 30px;
+  background-color: white;
+}
+
+.productCard:hover {
+  transform: scale(110%);
+  cursor: pointer;
+}
+
+.productCard-img {
+  width: 250px;
+  max-height: 250px;
+  object-fit: contain;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.productCard-img > img {
+  max-width: 250px;
+  max-height: 250px;
+  object-fit: contain;
+}
+
+.productCard-text {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.productCard-text > h1 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.productCard-text > h4 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: gray;
+}
+
+.productCard-price {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.productCard-price-discountedValue {
+  font-size: 35px;
+  font-weight: bold;
+  /* color: #ff1a53; */
+  color: #f9056f;
+  margin-right: 10px;
+}
+
+.productCard-price-actualValue {
+  font-size: 20px;
+  color: black;
+  margin-right: 10px;
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+  text-decoration-color: rgba(0, 0, 0, 0.692);
+}
+
+.productCard-price-discount {
+  font-size: 20px;
+  color: black;
+}
+
+.rating {
+  margin-bottom: 10px;
+}
+
+.productCard-addToCart {
+  background-color: #f9056f;
+  width: 250px;
+  height: 60px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.productCard-addToCart:hover {
+  background-color: #d41646;
+}
+
+.productCard-addToCart > span {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}

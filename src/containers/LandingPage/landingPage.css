@@ -1,0 +1,22 @@
+.landingPage {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.landingPage-hero {
+  width: 80vw;
+  /* background-color: #ff1a53; */
+  position: absolute;
+  z-index: -10;
+  object-fit: cover;
+}
+
+.landingPage-hero > img {
+  width: 100%;
+}
+
+.landingPage-afterHero {
+  margin-top: 80vh;
+}

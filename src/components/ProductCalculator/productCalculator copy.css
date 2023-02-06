@@ -1,0 +1,60 @@
+.paintCalculator {
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: 2px 2px 5px 2px #8080809c;
+  border-radius: 10px;
+  padding: 40px;
+  background-color: #ffffffe6;
+}
+
+.inputFields {
+  display: flex;
+  padding: 5px;
+}
+
+.inputFields > label {
+  width: 170px;
+}
+
+.inputFields > input {
+  width: 50px;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: gray;
+}
+
+.walls {
+  display: flex;
+  box-shadow: 2px 2px 5px 2px #8080809c;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+}
+
+.doorsAndWindows {
+  display: flex;
+  box-shadow: 2px 2px 5px 2px #8080809c;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+}
+
+.calculationResults {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  box-shadow: 2px 2px 5px 2px #8080809c;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+}
+
+.calculationResults > span {
+  padding: 10px;
+}
+
+hr {
+  margin-left: 20px;
+  margin-right: 20px;
+}

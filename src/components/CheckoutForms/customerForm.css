@@ -1,0 +1,78 @@
+.customerForm {
+  width: 25vw;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  box-shadow: 2px 2px 5px 2px #8080809c;
+  border-radius: 20px;
+  text-align: left;
+}
+
+.personalDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.personalDetails > input {
+  width: 400px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+.personalDetails > select {
+  width: 420px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.personalDetails > label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.go2150698616 {
+  padding: 0 !important;
+}
+
+.customerForm > div > div > div > button {
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  background-color: #33c3f0;
+  color: white;
+}
+
+.customerForm > div > div > div > button:disabled {
+  background-color: gray;
+  color: white;
+}
+
+.customerForm > div > div > div > button:hover {
+  cursor: pointer;
+}
+
+.submit {
+  width: 120px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  background-color: #33c3f0;
+  color: white;
+  text-align: center;
+  justify-items: center;
+}
+
+.submit:hover {
+  cursor: pointer;
+}
+
+.go2392553372 {
+  padding-left: 0;
+}
